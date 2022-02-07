@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Admin Dashboard</title>
+    </head>
+    <body>
+        <div id="sidebar">
+            <div id="logo">
+                <img src="assets/icons/dashboard.png" id="logo-img"><p>Dashboard</p>
+            </div>
+            <div id="nav">
+                <p></p>
+                <p><img src="assets/icons/home.png" class="icon"> Home</p>
+                <p><img src="assets/icons/profile.png" class="icon"> Profile</p>
+                <p><img src="assets/icons/messages.png" class="icon"> Messages</p>
+                <p><img src="assets/icons/clock.png" class="icon"> History</p>
+                <p><img src="assets/icons/tasks.png" class="icon"> Tasks</p>
+                <p><img src="assets/icons/communities.png" class="icon"> Communities</p>
+                <p></p>
+                <p><img src="assets/icons/settings.png" class="icon"> Settings</p>
+                <p><img src="assets/icons/support.png" class="icon"> Support</p>
+                <p><img src="assets/icons/privacy.png" class="icon"> Privacy</p>
+            </div>
+        </div>
+        <div id="main-page">
+            <div id="header">
+                <div id="header-top">
+                    <img src="assets/icons/search.png" class="icon" id="search-icon"> <input type="search">
+                    <img src="assets/icons/notifications.png" class="icon" id="end-1"><img src="assets/avatars/AvatarMaker1.svg" class="pfp small-pfp end"><span>Morgan Oakley</span>
+                </div>
+                <div id="header-bottom">
+                    <img src="assets/avatars/AvatarMaker1.svg" class="pfp large-pfp">
+                    <div>
+                        <p>Hi there,</p>
+                        <p style="font-size: 30px;">Morgan Oakley (@morgan)</p>
+                    </div>
+                    <button type="button" id="button-right">New</button>
+                    <button type="button" id="button-centered">Upload</button>
+                    <button type="button">Share</button>
+                </div>
+            </div>
+            <div id="main-content">
+                <div id="projects">
+                    <p class="projects-title">Your Projects</p>
+                    <div class="card">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Duis dolor sapien, iaculis eu euismod sit amet, vehicula euismod lectus. Nunc nec velit ac magna dapibus faucibus.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="project-title">Less Cool Project</p>
+                        <p class="project-description">Praesent nec risus ex. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum accumsan auctor.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="project-title">Impossible App</p>
+                        <p class="project-description">Praesent pulvinar lacus sit amet malesuada fermentum. Morbi eget mi accumsan, mollis nunc ac, sollicitudin nibh.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="project-title">Easy Peasy App</p>
+                        <p class="project-description">Ut eget orci eu mi euismod aliquet. Suspendisse pharetra turpis vel tortor posuere lacinia.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="project-title">Ad Blocker</p>
+                        <p class="project-description">Quisque et nisi a urna volutpat tristique. Maecenas tellus mauris, aliquam sit amet ex ac, egestas facilisis elit.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="project-title">Money Maker</p>
+                        <p class="project-description">Cras tincidunt eleifend nisl, sed viverra felis finibus non. Pellentesque vitae sodales dolor.</p>
+                        <div class="card-icons">
+                            <img src="assets/icons/favorite.png" class="icon">
+                            <img src="assets/icons/follow.png" class="icon">
+                            <img src="assets/icons/share.png" class="icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="main-right">
+                    <div id="announcements">
+                        <p class="projects-title">Announcements</p>
+                        <div class="announcement" id="ann-1">
+                            <p class="announcement-title">Site Maintenance</p>
+                            <p class="announcement-description">Aenean pulvinar mi ac eros auctor malesuada. Vestibulum rhoncus tincidunt metus, id suscipit enim interdum in.</p>
+                        </div>
+                        <hr id="divider-1">
+                        <div class="announcement" id="ann-2">
+                            <p class="announcement-title">Community Share Day</p>
+                            <p class="announcement-description">Donec commodo ipsum ut neque bibendum tristique. Nulla id ante a eros rhoncus pellentesque a at mauris.</p>
+                        </div>
+                        <hr id="divider-2">
+                        <div class="announcement" id="ann-3">
+                            <p class="announcement-title">Updated Privacy Policy</p>
+                            <p class="announcement-description">Cras nec venenatis turpis. Vestibulum condimentum ex eget rhoncus tincidunt.</p>
+                        </div>
+                    </div>
+                    <div id="trending">
+                        <p class="projects-title">Trending</p>
+                        <div class="trend" id="trend-1">
+                            <img src="assets/avatars/AvatarMaker2.svg" class="pfp small-pfp">
+                            <div>
+                                <p class="social">@tegan</p>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trend" id="trend-2">
+                            <img src="assets/avatars/AvatarMaker1.svg" class="pfp small-pfp">
+                            <div>
+                                <p class="social">@morgan</p>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trend" id="trend-3">
+                            <img src="assets/avatars/AvatarMaker3.svg" class="pfp small-pfp">
+                            <div>
+                                <p class="social">@kendall</p>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trend" id="trend-4">
+                            <img src="assets/avatars/AvatarMaker4.svg" class="pfp small-pfp">
+                            <div>
+                                <p class="social">@alex</p>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
